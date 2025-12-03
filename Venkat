@@ -1,0 +1,11 @@
+Git cycle.
+
+steps:
+1 clone the central rep to local.
+2 create some files empty if you want to add some content give the command as vim <filename>
+3 vim editor will be open get into insert mode add some text and come out of insert mode and save the data (:wq!).
+4 now this file is in working directory move to stating environment.
+5 git add .
+6 check the status.
+7 git commit -m "some msg" (now the file will move to local rep).
+8 git push (this command is used to push the file from local to cental repo)
